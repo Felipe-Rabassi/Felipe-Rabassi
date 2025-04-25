@@ -4,3 +4,5 @@
 - 🌱 Me encontro estudando o na Unicesumar 1 semestre de engenharia de software
 - 📫 Contato: feliperabassi@gmail.com
 - 😄 Pronomes: ele/dele
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Felipe-Rabassi)](https://github.com/anuraghazra/github-readme-stats)
