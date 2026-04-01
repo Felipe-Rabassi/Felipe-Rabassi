@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Pou 2.0</title>
+
+<style>
+    body {
+        background-image: url('background.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: ;
+        justify-content: center;
+    }
+
+    #b {
+        width: 400px;
+    }
+
+    #btn {
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    button, input {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    #nomePet {
+        font-size: 20px;
+        font-weight: bold;
+    }
+</style>
+</head>
+
+<body>
+
+<h2 id="nomePet">Seu Pet</h2>
+
+<input type="text" id="inputNome" placeholder="Digite o nome do pet">
+<button onclick="definirNome()">Definir Nome</button>
+
+<button onclick="limparBackground()">Ativar/Desativar Fundo</button>
+
+<img id="b" src="Criatura fofa flutuante em tons pastéis.png" alt="">
+<img id="btn" src="pacoca.jpg" onclick="alimentar()">
+
+<script src="scripit.js"></script>
+</body>
+</html>
