@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coreção Prova</title>
+    <style>
+        body{
+            background-color: rgb(59, 2, 2)
+        }
+        .caixa{
+            background-color: gray;
+            border: 2px solid black ;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            border-radius: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul style="list-style: none; display: flex; justify-content:space-around; background-color: white; padding: 10px 0px; border-radius: 5px;">
+            <li><a href="#os">Organização</a></li>
+            <li><a href="#nv">Formato</a></li>
+            <li><a href="#ex">Expectativas</a></li>
+        </ul>
+    </nav>
+    <section>
+    <H1 style="text-align: center; padding: 20px; background-color:  white; margin: 0 33%; border: 2px solid black; border-radius: 5px;" >Informações da copa</H1>
+            <div class="caixa">
+            <h2 id="os">🌍 Organização e Sedes</h2>
+            <p>A Copa do Mundo FIFA de 2026 será a primeira edição realizada em três países: Estados Unidos, Canadá e México. Essa será também a maior Copa da história em número de cidades-sede, com partidas distribuídas por diversas regiões da América do Norte, ampliando o alcance global do torneio.</p>
+            </div>
+            <div class="caixa">
+            <h2 id="nv">⚽ Novo Formato</h2>m grupos, a
+            <p>O torneio contará com 48 seleções, em vez das tradicionais 32. As equipes serão divididas eumentando o número total de jogos e dando mais oportunidades para países de diferentes continentes participarem. Essa mudança foi promovida pela FIFA para tornar a competição mais inclusiva e competitiva.</p>
+            </div>
+            <div class="caixa">
+            <h2 id="ex">🏆 Expectativas e Impacto</h2>
+            <p>A edição de 2026 promete ser uma das mais assistidas da história, com grande impacto econômico e cultural nos países-sede. Além disso, seleções tradicionais e emergentes devem protagonizar jogos de alto nível, aumentando ainda mais o interesse global pelo futebol e fortalecendo o esporte em novas regiões.</p>
+            </div>
+    </section>
+    <button style="padding: 20px;" onclick="chama()">Mostra Tabela de jogos</button>
+    <img id="img" style="display: none;" src="Tabela_Jogos.png" alt="">
+<script src="js.js"></script>
+</body>
+</html>
